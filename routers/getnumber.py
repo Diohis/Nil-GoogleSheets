@@ -1,10 +1,10 @@
 import logging
 import os
 import gspread
-from aiogram import Bot, Dispatcher, Router, types,F
-from aiogram.filters import CommandStart, CommandObject, BaseFilter
+from aiogram import Router, types,F
+from aiogram.filters import CommandStart, BaseFilter
 from aiogram.types import Message
-from aiogram.utils.keyboard import InlineKeyboardBuilder,ReplyKeyboardBuilder
+from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from dotenv import load_dotenv
 from google.oauth2.service_account import Credentials\
 
